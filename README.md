@@ -14,7 +14,7 @@ description: https://leetcode.com/problems/read-n-characters-given-read4/
 
 #### Solution:
 
-Translating the description into English is the hardest part here (along with figuring out what buf4 does and how to use it). Essentially, we're given a method which can only read characters in groups of four to some array we pass into it. The question is "how do we use a method that reads four things at a time to read any number of things?". Answer is simple:&#x20;
+Translating the description into English is the hardest part here (along with figuring out what buf4 does and how to use it). Essentially, we're given a method which can only read characters in groups of four and write them to some array we pass into it. The question is "how do we use a method that reads four things at a time to read any number of things?". Answer is simple:&#x20;
 
 * Initialize a counter to keep track of how many characters we've read so far:
 
