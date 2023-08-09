@@ -12,3 +12,7 @@
 ## 🥇 Hard problems
 
 * [Hard problems](hard-problems/hard-problems.md)
+
+***
+
+* [243. Shortest Word Distance](243.-shortest-word-distance.md)
